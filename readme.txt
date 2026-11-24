@@ -56,6 +56,10 @@ The plugin adds a suggested paragraph about the widgets to WordPress's privacy p
 
 The plugin stores nothing about your visitors. The widgets set no cookies; their requests to moonical.com appear in Moonical's server logs, see "External services".
 
+= Does the plugin add links to my site? =
+
+No. The widget itself, which moonical.com serves inside the iframe, shows the Moonical name and links to moonical.com for the full calendar. The plugin adds nothing around it: no credit, no "powered by", no link of its own.
+
 = Which time zone does the widget use? =
 
 By default each visitor's own: the widget shows their day, so a visitor in Sydney sees tomorrow when it is still today in London. Choose "This site's" in the block settings (or `tz="site"` in the shortcode) to show the day in your site's time zone to everyone. That needs the time zone set as a city under Settings › General, not as an offset like UTC+1.
