@@ -1,0 +1,8 @@
+.wp-block-moonical-widget iframe {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wp-block-moonical-widget.aligncenter {
+	text-align: center;
+}

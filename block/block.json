@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "moonical/widget",
+	"version": "1.0.0",
+	"title": "Moonical moon calendar",
+	"category": "widgets",
+	"description": "Today's moon, the best days for an activity, a topic or the moon phases, from Moonical.",
+	"keywords": [ "moon", "moon calendar", "moon phases", "full moon", "lunar" ],
+	"textdomain": "moonical",
+	"attributes": {
+		"widget": { "type": "string", "default": "today" },
+		"shape": { "type": "string", "default": "" },
+		"look": { "type": "string", "default": "" },
+		"tz": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"align": [ "left", "center", "right" ]
+	},
+	"example": {
+		"attributes": { "widget": "today" }
+	},
+	"editorScript": "file:./index.js",
+	"style": "file:./style.css",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,2651 @@
+{
+	"format": 1,
+	"site": "https://moonical.com",
+	"widgets": [
+		{
+			"id": "today",
+			"type": "today",
+			"name": "Today",
+			"group": null,
+			"title": "Moon calendar today | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 332
+				},
+				{
+					"shape": "strip",
+					"width": null,
+					"height": 96
+				}
+			]
+		},
+		{
+			"id": "moon-phases",
+			"type": "phases",
+			"name": "Moon phases",
+			"group": null,
+			"title": "Moon phases | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 298
+				},
+				{
+					"shape": "month",
+					"width": 300,
+					"height": 326
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "topic/hair",
+			"type": "topic",
+			"name": "Hair",
+			"group": null,
+			"title": "Hair by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 320
+				}
+			]
+		},
+		{
+			"id": "topic/skin-nails",
+			"type": "topic",
+			"name": "Skin and nails",
+			"group": null,
+			"title": "Skin and nails by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 320
+				}
+			]
+		},
+		{
+			"id": "topic/cleaning",
+			"type": "topic",
+			"name": "Cleaning",
+			"group": null,
+			"title": "Cleaning by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 284
+				}
+			]
+		},
+		{
+			"id": "topic/garden",
+			"type": "topic",
+			"name": "Garden",
+			"group": null,
+			"title": "Garden by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 320
+				}
+			]
+		},
+		{
+			"id": "dentist",
+			"type": "activity",
+			"name": "Dentist",
+			"group": "Body & health",
+			"title": "Dentist by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "vaccination",
+			"type": "activity",
+			"name": "Vaccination",
+			"group": "Body & health",
+			"title": "Vaccination by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "haircut",
+			"type": "activity",
+			"name": "Haircut",
+			"group": "Body & health",
+			"title": "Haircut by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "haircut-thick-hair",
+			"type": "activity",
+			"name": "Haircut for thick, full hair",
+			"group": "Body & health",
+			"title": "Haircut for thick, full hair by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "haircut-keeps-shape",
+			"type": "activity",
+			"name": "Haircut that keeps its shape",
+			"group": "Body & health",
+			"title": "Haircut that keeps its shape by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "facial-care",
+			"type": "activity",
+			"name": "Facial care",
+			"group": "Body & health",
+			"title": "Facial care by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "nutrition",
+			"type": "activity",
+			"name": "Nutrition",
+			"group": "Body & health",
+			"title": "Nutrition by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "exfoliation",
+			"type": "activity",
+			"name": "Exfoliation",
+			"group": "Body & health",
+			"title": "Exfoliation by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "anti-cellulite",
+			"type": "activity",
+			"name": "Cellulite care",
+			"group": "Body & health",
+			"title": "Cellulite care by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "manicure-pedicure",
+			"type": "activity",
+			"name": "Manicure and pedicure",
+			"group": "Body & health",
+			"title": "Manicure and pedicure by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "ingrown-nails",
+			"type": "activity",
+			"name": "Ingrown nails",
+			"group": "Body & health",
+			"title": "Ingrown nails by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "hard-skin",
+			"type": "activity",
+			"name": "Removing calluses",
+			"group": "Body & health",
+			"title": "Removing calluses by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "diet",
+			"type": "activity",
+			"name": "Starting a diet",
+			"group": "Body & health",
+			"title": "Starting a diet by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "weight-control",
+			"type": "activity",
+			"name": "Watching your weight",
+			"group": "Body & health",
+			"title": "Watching your weight by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "drinking",
+			"type": "activity",
+			"name": "Drinking enough",
+			"group": "Body & health",
+			"title": "Drinking enough by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "sauna",
+			"type": "activity",
+			"name": "Sauna",
+			"group": "Body & health",
+			"title": "Sauna by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "hair-colouring",
+			"type": "activity",
+			"name": "Hair colouring",
+			"group": "Body & health",
+			"title": "Hair colouring by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "perm",
+			"type": "activity",
+			"name": "Perm",
+			"group": "Body & health",
+			"title": "Perm by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "hair-removal",
+			"type": "activity",
+			"name": "Hair removal",
+			"group": "Body & health",
+			"title": "Hair removal by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "fitness-training",
+			"type": "activity",
+			"name": "Endurance training",
+			"group": "Body & health",
+			"title": "Endurance training by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "strength-training",
+			"type": "activity",
+			"name": "Strength training",
+			"group": "Body & health",
+			"title": "Strength training by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "fasting",
+			"type": "activity",
+			"name": "Fasting",
+			"group": "Body & health",
+			"title": "Fasting by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "fruit-day",
+			"type": "activity",
+			"name": "Eating fruit",
+			"group": "Body & health",
+			"title": "Eating fruit by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "deep-cleansing-skin",
+			"type": "activity",
+			"name": "Deep-cleansing the skin",
+			"group": "Body & health",
+			"title": "Deep-cleansing the skin by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "cleansing-face-mask",
+			"type": "activity",
+			"name": "Cleansing face mask",
+			"group": "Body & health",
+			"title": "Cleansing face mask by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "nourishing-face-mask",
+			"type": "activity",
+			"name": "Nourishing face mask",
+			"group": "Body & health",
+			"title": "Nourishing face mask by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "massage",
+			"type": "activity",
+			"name": "Connective tissue massage",
+			"group": "Body & health",
+			"title": "Connective tissue massage by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "lymph-drainage",
+			"type": "activity",
+			"name": "Lymph drainage",
+			"group": "Body & health",
+			"title": "Lymph drainage by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "removing-warts",
+			"type": "activity",
+			"name": "Removing warts",
+			"group": "Body & health",
+			"title": "Removing warts by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "window-cleaning",
+			"type": "activity",
+			"name": "Window cleaning",
+			"group": "Household",
+			"title": "Window cleaning by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "house-cleaning",
+			"type": "activity",
+			"name": "House cleaning",
+			"group": "Household",
+			"title": "House cleaning by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "laundry",
+			"type": "activity",
+			"name": "Washing laundry",
+			"group": "Household",
+			"title": "Washing laundry by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "extended-airing",
+			"type": "activity",
+			"name": "Airing thoroughly",
+			"group": "Household",
+			"title": "Airing thoroughly by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "short-airing",
+			"type": "activity",
+			"name": "Brief airing",
+			"group": "Household",
+			"title": "Brief airing by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "cleaning-shoes",
+			"type": "activity",
+			"name": "Cleaning shoes",
+			"group": "Household",
+			"title": "Cleaning shoes by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "waterproofing-shoes",
+			"type": "activity",
+			"name": "Waterproofing shoes",
+			"group": "Household",
+			"title": "Waterproofing shoes by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "ironing",
+			"type": "activity",
+			"name": "Ironing",
+			"group": "Household",
+			"title": "Ironing by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "mopping",
+			"type": "activity",
+			"name": "Mopping wooden floors",
+			"group": "Household",
+			"title": "Mopping wooden floors by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "cleaning-devices",
+			"type": "activity",
+			"name": "Cleaning keyboard and screen",
+			"group": "Household",
+			"title": "Cleaning keyboard and screen by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "car-washing",
+			"type": "activity",
+			"name": "Washing the car",
+			"group": "Household",
+			"title": "Washing the car by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "bike-cleaning",
+			"type": "activity",
+			"name": "Cleaning the bike",
+			"group": "Household",
+			"title": "Cleaning the bike by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "decluttering",
+			"type": "activity",
+			"name": "Decluttering",
+			"group": "Household",
+			"title": "Decluttering by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "seasonal-clothes",
+			"type": "activity",
+			"name": "Storing seasonal clothes",
+			"group": "Household",
+			"title": "Storing seasonal clothes by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "spring-cleaning",
+			"type": "activity",
+			"name": "Spring cleaning",
+			"group": "Household",
+			"title": "Spring cleaning by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "stubborn-laundry",
+			"type": "activity",
+			"name": "Stubborn laundry",
+			"group": "Household",
+			"title": "Stubborn laundry by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "upholstery-carpets",
+			"type": "activity",
+			"name": "Cleaning upholstery and carpets",
+			"group": "Household",
+			"title": "Cleaning upholstery and carpets by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "smells",
+			"type": "activity",
+			"name": "Getting rid of smells",
+			"group": "Household",
+			"title": "Getting rid of smells by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "mould-damp",
+			"type": "activity",
+			"name": "Mould and damp",
+			"group": "Household",
+			"title": "Mould and damp by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "moving-house",
+			"type": "activity",
+			"name": "Moving house",
+			"group": "Household",
+			"title": "Moving house by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "big-food-shop",
+			"type": "activity",
+			"name": "Big food shop",
+			"group": "Household",
+			"title": "Big food shop by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "painting-wallpapering",
+			"type": "activity",
+			"name": "Painting and wallpapering",
+			"group": "Home & DIY",
+			"title": "Painting and wallpapering by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "varnishing",
+			"type": "activity",
+			"name": "Varnishing",
+			"group": "Home & DIY",
+			"title": "Varnishing by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "weatherproofing-wood",
+			"type": "activity",
+			"name": "Weatherproofing wood",
+			"group": "Home & DIY",
+			"title": "Weatherproofing wood by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "stripping-paint",
+			"type": "activity",
+			"name": "Stripping paint",
+			"group": "Home & DIY",
+			"title": "Stripping paint by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "laying-floors",
+			"type": "activity",
+			"name": "Laying floors",
+			"group": "Home & DIY",
+			"title": "Laying floors by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "fences",
+			"type": "activity",
+			"name": "Putting up fences",
+			"group": "Home & DIY",
+			"title": "Putting up fences by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "paths-paving",
+			"type": "activity",
+			"name": "Paths and paving",
+			"group": "Home & DIY",
+			"title": "Paths and paving by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "concrete-screed",
+			"type": "activity",
+			"name": "Concrete and screed",
+			"group": "Home & DIY",
+			"title": "Concrete and screed by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "plastering",
+			"type": "activity",
+			"name": "Plastering and repairs",
+			"group": "Home & DIY",
+			"title": "Plastering and repairs by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "firewood",
+			"type": "activity",
+			"name": "Cutting firewood",
+			"group": "Home & DIY",
+			"title": "Cutting firewood by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "felling-timber",
+			"type": "activity",
+			"name": "Felling timber",
+			"group": "Home & DIY",
+			"title": "Felling timber by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "travel-planning",
+			"type": "activity",
+			"name": "Travel planning",
+			"group": "Plans & new starts",
+			"title": "Travel planning by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "setting-off",
+			"type": "activity",
+			"name": "Setting off on a trip",
+			"group": "Plans & new starts",
+			"title": "Setting off on a trip by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "giving-up-bad-habits",
+			"type": "activity",
+			"name": "Giving up bad habits",
+			"group": "Plans & new starts",
+			"title": "Giving up bad habits by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "new-beginnings",
+			"type": "activity",
+			"name": "New beginnings",
+			"group": "Plans & new starts",
+			"title": "New beginnings by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "finances",
+			"type": "activity",
+			"name": "Sorting out finances",
+			"group": "Plans & new starts",
+			"title": "Sorting out finances by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "important-projects",
+			"type": "activity",
+			"name": "Starting important projects",
+			"group": "Plans & new starts",
+			"title": "Starting important projects by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pets",
+			"type": "activity",
+			"name": "Getting a new pet",
+			"group": "Pets & animals",
+			"title": "Getting a new pet by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pet-cages",
+			"type": "activity",
+			"name": "Cleaning pet cages",
+			"group": "Pets & animals",
+			"title": "Cleaning pet cages by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pet-grooming",
+			"type": "activity",
+			"name": "Grooming pets",
+			"group": "Pets & animals",
+			"title": "Grooming pets by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "clipping-claws",
+			"type": "activity",
+			"name": "Clipping claws",
+			"group": "Pets & animals",
+			"title": "Clipping claws by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pet-eyes-ears",
+			"type": "activity",
+			"name": "Cleaning eyes and ears",
+			"group": "Pets & animals",
+			"title": "Cleaning eyes and ears by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pet-vaccination",
+			"type": "activity",
+			"name": "Vaccinating pets",
+			"group": "Pets & animals",
+			"title": "Vaccinating pets by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "bathing-pets",
+			"type": "activity",
+			"name": "Bathing pets",
+			"group": "Pets & animals",
+			"title": "Bathing pets by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "planting-flowers",
+			"type": "activity",
+			"name": "Planting flowers",
+			"group": "Sowing & planting",
+			"title": "Planting flowers by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "fruiting-vegetables",
+			"type": "activity",
+			"name": "Planting fruiting vegetables",
+			"group": "Sowing & planting",
+			"title": "Planting fruiting vegetables by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "root-vegetables",
+			"type": "activity",
+			"name": "Planting root vegetables",
+			"group": "Sowing & planting",
+			"title": "Planting root vegetables by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "water-plants",
+			"type": "activity",
+			"name": "Planting water plants",
+			"group": "Sowing & planting",
+			"title": "Planting water plants by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "sowing-herbs",
+			"type": "activity",
+			"name": "Sowing herbs",
+			"group": "Sowing & planting",
+			"title": "Sowing herbs by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "flower-bulbs",
+			"type": "activity",
+			"name": "Planting flower bulbs",
+			"group": "Sowing & planting",
+			"title": "Planting flower bulbs by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "sowing-lawn",
+			"type": "activity",
+			"name": "Sowing a lawn",
+			"group": "Sowing & planting",
+			"title": "Sowing a lawn by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "repotting",
+			"type": "activity",
+			"name": "Repotting and transplanting",
+			"group": "Sowing & planting",
+			"title": "Repotting and transplanting by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "planting-trees",
+			"type": "activity",
+			"name": "Planting trees",
+			"group": "Sowing & planting",
+			"title": "Planting trees by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "planting-fruit-trees",
+			"type": "activity",
+			"name": "Planting fruit trees",
+			"group": "Sowing & planting",
+			"title": "Planting fruit trees by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "planting-fruit-bushes",
+			"type": "activity",
+			"name": "Planting fruit bushes",
+			"group": "Sowing & planting",
+			"title": "Planting fruit bushes by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "planting-flowering-shrubs",
+			"type": "activity",
+			"name": "Planting flowering shrubs",
+			"group": "Sowing & planting",
+			"title": "Planting flowering shrubs by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "leafy-vegetables",
+			"type": "activity",
+			"name": "Planting leafy vegetables",
+			"group": "Sowing & planting",
+			"title": "Planting leafy vegetables by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "lettuce-cabbage",
+			"type": "activity",
+			"name": "Planting lettuce and cabbage",
+			"group": "Sowing & planting",
+			"title": "Planting lettuce and cabbage by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "medicinal-plants",
+			"type": "activity",
+			"name": "Sowing medicinal plants",
+			"group": "Sowing & planting",
+			"title": "Sowing medicinal plants by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "seedlings",
+			"type": "activity",
+			"name": "Setting out seedlings",
+			"group": "Sowing & planting",
+			"title": "Setting out seedlings by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "cuttings",
+			"type": "activity",
+			"name": "Taking cuttings",
+			"group": "Sowing & planting",
+			"title": "Taking cuttings by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "watering-flowers",
+			"type": "activity",
+			"name": "Watering flowers",
+			"group": "Care & soil",
+			"title": "Watering flowers by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "repotting-houseplants",
+			"type": "activity",
+			"name": "Repotting houseplants",
+			"group": "Care & soil",
+			"title": "Repotting houseplants by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "weeding",
+			"type": "activity",
+			"name": "Weeding",
+			"group": "Care & soil",
+			"title": "Weeding by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pest-control",
+			"type": "activity",
+			"name": "Pest control",
+			"group": "Care & soil",
+			"title": "Pest control by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "mowing",
+			"type": "activity",
+			"name": "Mowing the lawn",
+			"group": "Care & soil",
+			"title": "Mowing the lawn by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "hoeing",
+			"type": "activity",
+			"name": "Hoeing and loosening the soil",
+			"group": "Care & soil",
+			"title": "Hoeing and loosening the soil by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "digging",
+			"type": "activity",
+			"name": "Digging over",
+			"group": "Care & soil",
+			"title": "Digging over by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "compost",
+			"type": "activity",
+			"name": "Starting a compost heap",
+			"group": "Care & soil",
+			"title": "Starting a compost heap by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "treading-compost",
+			"type": "activity",
+			"name": "Treading down the compost heap",
+			"group": "Care & soil",
+			"title": "Treading down the compost heap by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "mulching",
+			"type": "activity",
+			"name": "Mulching",
+			"group": "Care & soil",
+			"title": "Mulching by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "feeding-leaves",
+			"type": "activity",
+			"name": "Feeding for leaves",
+			"group": "Care & soil",
+			"title": "Feeding for leaves by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "feeding-fruit",
+			"type": "activity",
+			"name": "Feeding for fruit",
+			"group": "Care & soil",
+			"title": "Feeding for fruit by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "feeding-roots",
+			"type": "activity",
+			"name": "Feeding for roots",
+			"group": "Care & soil",
+			"title": "Feeding for roots by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "feeding-flowers",
+			"type": "activity",
+			"name": "Feeding for flowers",
+			"group": "Care & soil",
+			"title": "Feeding for flowers by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "watering-houseplants",
+			"type": "activity",
+			"name": "Watering houseplants and balcony plants",
+			"group": "Care & soil",
+			"title": "Watering houseplants and balcony plants by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pruning-fruit-trees",
+			"type": "activity",
+			"name": "Pruning fruit trees",
+			"group": "Care & soil",
+			"title": "Pruning fruit trees by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "hedges",
+			"type": "activity",
+			"name": "Trimming hedges",
+			"group": "Care & soil",
+			"title": "Trimming hedges by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "cutting-back",
+			"type": "activity",
+			"name": "Cutting back trees and shrubs",
+			"group": "Care & soil",
+			"title": "Cutting back trees and shrubs by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "grafting",
+			"type": "activity",
+			"name": "Grafting",
+			"group": "Care & soil",
+			"title": "Grafting by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pests-above-ground",
+			"type": "activity",
+			"name": "Pests above ground",
+			"group": "Care & soil",
+			"title": "Pests above ground by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "pests-below-ground",
+			"type": "activity",
+			"name": "Pests below ground",
+			"group": "Care & soil",
+			"title": "Pests below ground by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "slugs",
+			"type": "activity",
+			"name": "Slugs and snails",
+			"group": "Care & soil",
+			"title": "Slugs and snails by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "garden-pond",
+			"type": "activity",
+			"name": "Building a garden pond",
+			"group": "Care & soil",
+			"title": "Building a garden pond by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "mushrooms",
+			"type": "activity",
+			"name": "Mushroom picking",
+			"group": "Harvest & storing",
+			"title": "Mushroom picking by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "harvesting-fruit",
+			"type": "activity",
+			"name": "Harvesting fruit",
+			"group": "Harvest & storing",
+			"title": "Harvesting fruit by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "harvesting-vegetables",
+			"type": "activity",
+			"name": "Harvesting vegetables",
+			"group": "Harvest & storing",
+			"title": "Harvesting vegetables by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "harvesting-root-vegetables",
+			"type": "activity",
+			"name": "Harvesting root vegetables",
+			"group": "Harvest & storing",
+			"title": "Harvesting root vegetables by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "harvesting-for-storage",
+			"type": "activity",
+			"name": "Harvesting for storage",
+			"group": "Harvest & storing",
+			"title": "Harvesting for storage by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "gathering-blossoms",
+			"type": "activity",
+			"name": "Gathering blossoms",
+			"group": "Harvest & storing",
+			"title": "Gathering blossoms by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "gathering-leaves",
+			"type": "activity",
+			"name": "Gathering leaves",
+			"group": "Harvest & storing",
+			"title": "Gathering leaves by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "gathering-seeds",
+			"type": "activity",
+			"name": "Gathering seeds",
+			"group": "Harvest & storing",
+			"title": "Gathering seeds by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "gathering-roots",
+			"type": "activity",
+			"name": "Gathering roots",
+			"group": "Harvest & storing",
+			"title": "Gathering roots by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "gathering-herbs",
+			"type": "activity",
+			"name": "Gathering herbs",
+			"group": "Harvest & storing",
+			"title": "Gathering herbs by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "nettles",
+			"type": "activity",
+			"name": "Gathering nettles",
+			"group": "Harvest & storing",
+			"title": "Gathering nettles by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "drying-herbs",
+			"type": "activity",
+			"name": "Drying herbs",
+			"group": "Harvest & storing",
+			"title": "Drying herbs by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "storing-produce",
+			"type": "activity",
+			"name": "Storing fruit and vegetables",
+			"group": "Harvest & storing",
+			"title": "Storing fruit and vegetables by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "freezing",
+			"type": "activity",
+			"name": "Freezing fruit",
+			"group": "Harvest & storing",
+			"title": "Freezing fruit by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "preserving",
+			"type": "activity",
+			"name": "Preserving",
+			"group": "Harvest & storing",
+			"title": "Preserving by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "making-jam",
+			"type": "activity",
+			"name": "Making jam",
+			"group": "Harvest & storing",
+			"title": "Making jam by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "settling-bees",
+			"type": "activity",
+			"name": "Settling a bee colony",
+			"group": "Beekeeping",
+			"title": "Settling a bee colony by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "moving-hive",
+			"type": "activity",
+			"name": "Moving a hive",
+			"group": "Beekeeping",
+			"title": "Moving a hive by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "cleaning-hive",
+			"type": "activity",
+			"name": "Cleaning the hive",
+			"group": "Beekeeping",
+			"title": "Cleaning the hive by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		},
+		{
+			"id": "weak-colony",
+			"type": "activity",
+			"name": "Building up a weak colony",
+			"group": "Beekeeping",
+			"title": "Building up a weak colony by the moon | Moonical",
+			"shapes": [
+				{
+					"shape": "card",
+					"width": 300,
+					"height": 360
+				},
+				{
+					"shape": "badge",
+					"width": 420,
+					"height": 44
+				}
+			]
+		}
+	]
+}

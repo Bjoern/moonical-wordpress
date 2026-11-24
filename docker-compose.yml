@@ -1,0 +1,44 @@
+# A WordPress to try the plugin in, at http://localhost:8090 (see README.md). Not part of the plugin.
+# The passwords here are for this local test site only.
+services:
+  db:
+    image: mariadb:11
+    environment:
+      MARIADB_ROOT_PASSWORD: moon-test-root
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: moon-test-db
+    volumes:
+      - db:/var/lib/mysql
+
+  wordpress:
+    image: wordpress:latest
+    depends_on: [db]
+    ports:
+      - "8090:80"
+    environment: &wp
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: moon-test-db
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DEBUG: "1"
+      # Moonical running on this machine (port 8650); the browser reaches the same name
+      WORDPRESS_CONFIG_EXTRA: |
+        define( 'MOONICAL_SITE_URL', 'http://host.docker.internal:8650' );
+    volumes:
+      - wp:/var/www/html
+      - ./:/var/www/html/wp-content/plugins/moonical:ro
+
+  cli:
+    image: wordpress:cli
+    profiles: [cli]
+    depends_on: [db]
+    user: "33:33"
+    environment: *wp
+    volumes:
+      - wp:/var/www/html
+      - ./:/var/www/html/wp-content/plugins/moonical:ro
+
+volumes:
+  db:
+  wp:
