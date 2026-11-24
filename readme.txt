@@ -70,10 +70,10 @@ From the traditional moon calendar, as books on it have given them for decades. 
 
 == Screenshots ==
 
-1. The widget's settings in the block editor.
-2. Today's moon as a card.
-3. The best days for a haircut, as a card and as a badge.
-4. The moon phases of the month, in the night look.
+1. The block in the editor: choose what the widget shows, its shape, its look and its time zone.
+2. Today's moon as a strip and as cards, in the light and the night look, and the garden topic.
+3. The best days for a haircut as a card, the hair topic, and three activities as badges.
+4. The moon phases: the next four, the days of the month in the night look, and the full moon as a badge.
 
 == Changelog ==
 

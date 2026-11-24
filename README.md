@@ -53,6 +53,27 @@ Then http://localhost:8090/wp-admin (user `admin`, password `moon-test-admin`: a
 `MOONICAL_SITE_URL` points the plugin to `http://host.docker.internal:8650`, which the container and
 the browser on this machine both reach. `docker compose down -v` removes the site again.
 
+## The directory's pictures
+
+`assets/` holds what the plugin directory shows: `banner-1544x500.png` and `banner-772x250.png`, the
+icon (`icon-256x256.png`, `icon-128x128.png`) and `screenshot-1.png` to `-4.png`, captioned in
+`readme.txt` under "Screenshots". They go to the `assets` folder of the directory's SVN repository,
+not into the zip. The banner and the icon are made from Moonical's wordmark and site icon, outside this
+repository.
+
+To take the screenshots again (after a change in the editor or in the widgets), in the test site:
+
+```
+docker compose run --rm cli wp option update timezone_string Europe/London
+docker compose run --rm -T cli wp post create - --post_type=page --post_status=publish --post_title=shot-today --post_name=shot-today < dev/shot-today.html
+docker compose run --rm -T cli wp post create - --post_type=page --post_status=publish --post_title=shot-activity --post_name=shot-activity < dev/shot-activity.html
+docker compose run --rm -T cli wp post create - --post_type=page --post_status=publish --post_title=shot-phases --post_name=shot-phases < dev/shot-phases.html
+docker compose run --rm -T cli wp post create - --post_status=publish --post_title="Sowing by the moon" --porcelain < dev/sowing-by-the-moon.html
+deno run -A dev/screenshots.ts assets <the id the last command printed>
+```
+
+The script crops each page around its widgets, on a soft background, in London time.
+
 ## Releasing
 
 1. Refresh `catalog.json`, raise the version in `moonical.php` (header and `MOONICAL_VERSION`),
