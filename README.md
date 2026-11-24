@@ -1,11 +1,11 @@
 # Moonical – Moon Calendar Widgets (WordPress plugin)
 
 A thin wrapper around the widgets of moonical.com: a block and a shortcode that write the widget's
-iframe. No moon calculations here; the widgets are pages of moonical.com (`/widget/...`, see the
-"Moonical: widgets" section of `AGENTS.md` in the repository `mondhandy.de`).
+iframe. No moon calculations here; the widgets are pages of moonical.com (`/widget/...`), made by
+Moonical's own code, which is not in this repository.
 
 `readme.txt` is the page in the WordPress plugin directory; this file is for working on the plugin.
-The repository is private; the plugin itself is GPL and becomes public once it is in the directory.
+The plugin is free software under the GPL, version 2 or later (see the header of `moonical.php`).
 
 ## Files
 
@@ -23,7 +23,7 @@ The repository is private; the plugin itself is GPL and becomes public once it i
 ## The catalogue
 
 Which widgets exist, their shapes and their sizes come from `https://moonical.com/widget/catalog.json`
-(`WidgetController.catalog` in mondhandy.de, format 1). The plugin keeps the last one it fetched for a
+(format 1). The plugin keeps the last one it fetched for a
 day (option `moonical_catalog`) and then fetches it again: at once in the admin, in the background
 (WP cron) on the site. After a failure it waits an hour. Until the first fetch it uses `catalog.json`.
 
@@ -39,7 +39,8 @@ catalogue field needs a new format number on Moonical, and the plugin reads only
 
 ## Trying it out
 
-Needs Docker Desktop, and Moonical running locally on port 8650 (see `AGENTS.md` in mondhandy.de).
+Needs Docker Desktop, and Moonical running locally on port 8650 (for Moonical's developers; anyone
+else can set `MOONICAL_SITE_URL` in `docker-compose.yml` to `https://moonical.com`).
 
 ```
 docker compose up -d
