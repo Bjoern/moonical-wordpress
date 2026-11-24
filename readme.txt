@@ -40,7 +40,7 @@ This plugin shows content from moonical.com, run by the makers of this plugin. I
 * **The list of widgets.** About once a day, and when you open the block editor after that, your site fetches the list of widgets and their sizes from https://moonical.com/widget/catalog.json. That request comes from your server and sends nothing about you or your visitors.
 
 Moonical's privacy policy: https://moonical.com/privacy
-Moonical's imprint and terms: https://moonical.com/imprint
+Who runs Moonical: https://moonical.com/imprint (Moonical has no separate terms of use)
 
 The plugin adds a suggested paragraph about the widgets to WordPress's privacy policy guide (Settings › Privacy).
 
