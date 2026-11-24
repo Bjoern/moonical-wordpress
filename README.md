@@ -88,6 +88,6 @@ The script crops each page around its widgets, on a soft background, in London t
 
 The first submission goes through https://wordpress.org/plugins/developers/add/ (a WordPress.org
 account; the review takes a few weeks). After that, releases go to the directory's SVN repository.
-`Contributors:` in `readme.txt` must be the WordPress.org user name of that account (now a
-placeholder, `moonical`). Screenshots for the directory (`assets/` in SVN, not in the zip) are named
+`Contributors:` in `readme.txt` is the WordPress.org user name of that account, `moonical`
+(created 2026-11-24). Screenshots for the directory (`assets/` in SVN, not in the zip) are named
 in `readme.txt` under "Screenshots".
