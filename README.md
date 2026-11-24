@@ -58,7 +58,7 @@ the browser on this machine both reach. `docker compose down -v` removes the sit
 `assets/` holds what the plugin directory shows: `banner-1544x500.png` and `banner-772x250.png`, the
 icon (`icon-256x256.png`, `icon-128x128.png`) and `screenshot-1.png` to `-4.png`, captioned in
 `readme.txt` under "Screenshots". They go to the `assets` folder of the directory's SVN repository,
-not into the zip. The banner and the icon are made from Moonical's wordmark and site icon, outside this
+not into the zip. The banner and the icon are made from Moonical's wordmark and favicon (the moon on yellow), outside this
 repository.
 
 To take the screenshots again (after a change in the editor or in the widgets), in the test site:
