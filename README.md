@@ -86,8 +86,18 @@ The script crops each page around its widgets, on a soft background, in London t
 4. Commit, then make the zip: `git archive --format=zip --prefix=moonical/ -o dist/moonical-1.0.0.zip HEAD`.
    `.gitattributes` (`export-ignore`) keeps this README, `docker-compose.yml` and the dot files out.
 
-The first submission goes through https://wordpress.org/plugins/developers/add/ (a WordPress.org
-account; the review takes a few weeks). After that, releases go to the directory's SVN repository.
+5. Put it into the directory's SVN repository, https://plugins.svn.wordpress.org/moonical (user
+   `moonical`; the SVN password is set in the WordPress.org profile, "Account & Security"). In a
+   checkout (`svn checkout https://plugins.svn.wordpress.org/moonical moonical-svn`): replace the
+   files of `trunk` with the zip's, `svn add --force trunk` and `svn rm` what is gone, `svn commit`,
+   then tag it on the server: `svn cp trunk tags/<version>` and commit again. `Stable tag` in
+   `trunk/readme.txt` decides which tag the directory hands out.
+   Changed pictures go to `assets/` there (`svn propset svn:mime-type image/png` on new ones, or
+   browsers download them instead of showing them); a readme-only change goes to `trunk` and the
+   current tag, without a new version.
+
+The first submission went through https://wordpress.org/plugins/developers/add/ (approved
+2026-11-25); since then, releases go to the SVN repository as above.
 `Contributors:` in `readme.txt` is the WordPress.org user name of that account, `moonical`
 (created 2026-11-24). Screenshots for the directory (`assets/` in SVN, not in the zip) are named
 in `readme.txt` under "Screenshots".
