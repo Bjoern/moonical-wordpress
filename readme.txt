@@ -49,8 +49,21 @@ The plugin adds a suggested paragraph about the widgets to WordPress's privacy p
 1. Install the plugin from Plugins › Add New, or upload the folder `moonical` to `/wp-content/plugins/`.
 2. Activate it.
 3. Add the block "Moonical moon calendar" to a page, a post or a widget area, or use the shortcode `[moonical]`.
+4. Click the block and choose what it shows in its settings, in the editor's right-hand sidebar (see the FAQ if you cannot find them).
 
 == Frequently Asked Questions ==
+
+= Where are the widget's settings? =
+
+There is no settings page: each widget is set up where you place it. Click the widget once in the editor; its settings are in the right-hand sidebar, in the "Block" tab, under "Widget". If that sidebar is closed, open it with the Settings button at the top right.
+
+= How do I put a widget in my sidebar? =
+
+Under Appearance › Widgets, open the sidebar, click "+" and add the block "Moonical moon calendar". To choose what it shows, click the widget once, then click the Settings button (the gear) at the top right, since this screen starts with the settings closed, and switch to the "Block" tab. Click "Update" when done.
+
+If that screen shows a list of widgets to drag in instead of a "+" (the Classic Widgets plugin, or a theme that keeps the old screen), drag in a "Shortcode" or "Text" widget and type a shortcode into it, such as `[moonical]` or `[moonical widget="moon-phases"]`.
+
+In the Customizer (Appearance › Customize › Widgets), the block's settings are behind the three dots on its toolbar: "Show more settings". Block themes such as Twenty Twenty-Five have no Appearance › Widgets; add the block in Appearance › Editor instead, in the template.
 
 = Does it set cookies or collect data? =
 
