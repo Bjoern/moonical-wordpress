@@ -14,7 +14,7 @@ Today's moon, the best days for a haircut or for sowing, and the moon phases: Mo
 
 Show the moon calendar on your site with the widgets of [Moonical](https://moonical.com), a moon calendar in English:
 
-* **Today**: the moon's phase and sign, the kind of day, and the activities the traditional moon calendar recommends for it. As a card, or as a strip across the page.
+* **Today**: the moon's phase and zodiac sign, the kind of day, and the activities the traditional moon calendar recommends for it. As a card, or as a strip across the page.
 * **One activity**: the next good days for one of more than 130 activities, from a haircut to sowing tomatoes. As a card with a small month, or as a one-line badge.
 * **A topic**: a few activities at once, such as hair, skin and nails, cleaning or the garden.
 * **Moon phases**: the next new, first quarter, full and last quarter moon with their times, the days of the month with their moon, or the next full moon as a badge.
