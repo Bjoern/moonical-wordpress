@@ -61,6 +61,13 @@ icon (`icon-256x256.png`, `icon-128x128.png`) and `screenshot-1.png` to `-4.png`
 not into the zip. The banner and the icon are made from Moonical's wordmark and favicon (the moon on yellow), outside this
 repository.
 
+`assets/blueprints/blueprint.json` is the recipe for the directory's Live Preview (WordPress
+Playground): it installs the plugin from the directory, logs in, fills the sample page with three
+widgets and a line on where their settings are, and opens it in the editor. It is made by
+`deno run -A dev/make-blueprint.ts` (edit the script, not the JSON). To try it, open
+`https://playground.wordpress.net/#` followed by the URL-encoded JSON. It goes to `assets/blueprints/`
+in SVN; the preview is switched on in the plugin's Advanced view on WordPress.org ("Toggle Live Preview").
+
 To take the screenshots again (after a change in the editor or in the widgets), in the test site:
 
 ```
